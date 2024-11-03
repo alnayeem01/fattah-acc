@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    font-family: sans-serif;
+}
+body{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    height: 100vh;
+    background-color: transparent;
+}
+#heading{
+    font-size: xx-large;
+    text-align: center;
+    margin: 2rem;
+}
+.nav {
+    text-align: center;
+    background-color: beige;
+}
+.nav li{
+    list-style: none;
+    display: inline-block;
+}
+.nav a{
+    text-decoration: none;
+    color: black;
+    border-right: 1px solid black;
+    padding: 0.5rem;
+    display: inline-block;
+}
+.nav a:hover{
+    background-color: whitesmoke;
+}
+.nav li:first-child{
+    border-left: 1px solid black;
+}
+img{
+    max-width: 80%;
+}
+#intro{
+    padding: 5rem;
+    line-height: 1.5;
+    text-align: center;   
+}
+#intro h2{
+    font-size: xx-large;
+}
+.block{
+    max-width: 450px;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr ;
+    width: 100%;
+}
+.container *{
+    max-width: 500px;
+}
+#first{
+    background-image: url(images/oneServ.jpg); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+    width: 100%; 
+    height: 400px; 
+    
+}
+#two{
+    background-image: url(images/twoServ.jpg); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+    width: 100%; 
+    height: 400px; 
+    
+}
+#three{
+    background-image: url(images/threeServ.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+    width: 100%; 
+    height: 400px; 
+    
+}
+.serv{
+    min-width: 300px;
+    background-color: rgb(219, 208, 192);
+    justify-content: center;
+    height: 400px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    line-height: 1.5rem;
+}
+ @media (max-width: 768px){ 
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+}
+footer{
+    font-size: large;
+    margin-top: 2rem;
+    padding: 5rem;
+}
+video{
+    max-width: 100%;
+    overflow: hidden;
+    margin-top: 1rem;
+}
+main h2 {
+    font-size: 2rem;
+    margin: 5rem;
+    padding: 3rem;
+}
+main p{
+    font-size: larger ;
+    padding: 1rem;
+    margin: .5rem;
+}
+
